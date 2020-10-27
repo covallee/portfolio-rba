@@ -46,7 +46,7 @@ export default {
   mounted() {},
   head() {
     return {
-      title: `Project | `,
+      title: `${this.title} | Richard Bell Art`,
       meta: [
         {
           hid: "description",

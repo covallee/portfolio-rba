@@ -26,6 +26,18 @@ export default {
   async asyncData() {
     return await sanityClient.fetch(query);
   },
+  head() {
+    return {
+      title: `Contact | Richard Bell Art`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "Contact Richard Bell"
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -72,18 +84,16 @@ export default {
 
 @media (min-width: 640px) {
   .project__container {
-    padding: 50px 1.5rem 2rem 316px;
+    padding: 66px 1.5rem 2rem 316px;
     max-width: 1100px;
     margin: 0 auto;
   }
 
   .about__block {
-    padding: 16px;
     font-size: 15px;
     line-height: 28px;
     font-weight: 300;
     min-width: 700px;
-    padding: 1rem;
     font-family: "Roboto Slab", serif;
   }
 

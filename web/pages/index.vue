@@ -1,11 +1,13 @@
 <template>
   <section class="project__container">
     <!-- <Carousel :photos="mainProject.artworks" /> -->
+    <div>
     <SanityImage
       :image="mainProject.artworks[0].artwork.poster"
       :height="700"
       class="image"
       />
+    </div>
   </section>
 </template>
 
@@ -102,10 +104,6 @@ export default {
   .project__container {
     padding: calc((100vh - 700px) / 2) 0 calc((100vh - 700px) / 2) 316px;
     flex-direction: row;
-  }
-
-  img {
-    width: unset;
   }
 }
 </style>

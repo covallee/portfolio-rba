@@ -204,9 +204,5 @@ export default {
   .caption {
     padding: 0 0 16px 0;
   }
-
-  .thumbnails {
-    justify-content: center;
-  }
 }
 </style>
