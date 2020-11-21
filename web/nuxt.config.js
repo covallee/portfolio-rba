@@ -49,8 +49,9 @@ export default {
       },
     ],
     link: [
-      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      // { rel: 'icon', size: '16x16', href: '/favicon16x16.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', size: '16x16', href: '/favicon-16x16.png' },
+      { rel: 'icon', size: '16x16', href: '/favicon-32x32.png' },
     ],
   },
   /*
