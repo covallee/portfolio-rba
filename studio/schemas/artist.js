@@ -28,6 +28,27 @@ export default {
       options: {
         hotspot: true,
       },
+      fields: [
+        {
+          name: "caption",
+          type: "string",
+          title: "Caption",
+          options: {
+            isHighlighted: true,
+          },
+        },
+        {
+          name: "alt",
+          type: "string",
+          title: "Alternative text",
+          description: "Important for accessibility.",
+          validation: (Rule) =>
+            Rule.error("You have to fill out the alternative text.").required(),
+          options: {
+            isHighlighted: true,
+          },
+        },
+      ],
     },
     {
       title: "Social Graph",
