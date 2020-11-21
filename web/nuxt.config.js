@@ -20,7 +20,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Richard Bell Art',
+        content: 'Richard Bell (b. 1953, Charleville, Queensland) is a Australian artist and a member of the Kamilaroi, Kooma, Jiman and Gurang Gurang communities. ',
       },
       {
         hid: 'og:site_name',
@@ -40,7 +40,7 @@ export default {
       {
         hid: 'og:url',
         name: 'og:url',
-        content: 'website',
+        content: 'https://richardbellart.com',
       },
       {
         hid: 'og:description',
