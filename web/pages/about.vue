@@ -100,7 +100,6 @@ export default {
     line-height: 28px;
     font-weight: 300;
     min-width: 700px;
-    /* padding: 1rem; */
     font-family: 'Roboto Slab', serif;
   }
 

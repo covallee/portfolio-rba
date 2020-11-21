@@ -102,7 +102,7 @@ export default {
 
 @media (min-width: 640px) {
   .project__container {
-    padding: calc((100vh - 700px) / 2) 0 calc((100vh - 700px) / 2) 316px;
+    padding: 66px 1.5rem 2rem 316px;
     max-width: 1100px;
     margin: 0 auto;
   }
