@@ -2,28 +2,28 @@
   <section class="project__container">
     <div class="slide__container">
       <div class="about__block">
-        <h3 class="title">Selected Solo Exhibitons</h3>
+        <h2 class="title">Selected Solo Exhibitons</h2>
         <BlockContent
           v-if="mainArtist.soloExhibitions"
           :blocks="mainArtist.soloExhibitions"
         />
       </div>
       <div class="about__block">
-        <h3 class="title">Selected Group Exhibitons</h3>
+        <h2 class="title">Selected Group Exhibitons</h2>
         <BlockContent
           v-if="mainArtist.groupExhibitions"
           :blocks="mainArtist.groupExhibitions"
         />
       </div>
       <div class="about__block">
-        <h3 class="title">Awards & Prizes</h3>
+        <h2 class="title">Awards & Prizes</h2>
         <BlockContent
           v-if="mainArtist.awards"
           :blocks="mainArtist.awards"
         />
       </div>
       <div class="about__block">
-        <h3 class="title">Selected Collections</h3>
+        <h2 class="title">Selected Collections</h2>
         <BlockContent
           v-if="mainArtist.collections"
           :blocks="mainArtist.collections"
