@@ -74,7 +74,7 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxtjs/google-analytics',
+    '@nuxtjs/google-gtag',
   ],
   /*
    ** Nuxt.js modules
@@ -101,7 +101,7 @@ export default {
       },
     },
   },
-  googleAnalytics: {
-    id: 'G-NT138E1RLC'
-  }
+  'google-gtag': {
+    id: 'G-NT138E1RLC',
+  },
 }
